@@ -61,7 +61,7 @@ apt install wget -y
 git clone https://github.com/teknovamd-star/CAMERA-HACKING.git
 ```
 ```bash
-cd HACK-CAMERA
+cd CAMERA-HACKING
 ```
 ```bash
 chmod +x hack_camera.sh (optional)
