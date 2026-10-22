@@ -4,7 +4,7 @@
 # Version    : 2.1
 # Description: CameraHackHack is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
 # Author     : UNKNOWN TEKNOVA 
-# Github     : https://github.com/hackerxphantom
+# Github     : https://github.com/teknovamd-star
 # Join Us    : https://bit.ly/3PV3S3r
 # Date       : 22-10-2027
 # Language   : Shell, HTML, Css
