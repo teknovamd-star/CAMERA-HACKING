@@ -58,7 +58,7 @@ apt install curl -y
 apt install wget -y
 ```
 ```bash
-git clone https://github.com/XPH4N70M/HACK-CAMERA.git
+git clone https://github.com/teknovamd-star/CAMERA-HACKING.git
 ```
 ```bash
 cd HACK-CAMERA
