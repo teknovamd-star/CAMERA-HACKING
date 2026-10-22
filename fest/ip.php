@@ -1,11 +1,11 @@
 <?php
 
-# ip.php by KasRoudra
-# Author   : KasRoudra
-# Github   : https://github.com/KasRoudra
-# Email    : kasroudrard@gmail.com
-# Messenger: https//m.me/KasRoudra
-# Date     : 5-09-2021
+# ip.php by TEKNOVA 
+# Author   : teknova
+# Github   : https://github.com/teknovamd-star
+# Email    : teknovamd@gmail.com
+# Messenger: https//m.me/Teknova
+# Date     : 22-10-2026
 
 error_reporting(E_ERROR | E_PARSE);
 
